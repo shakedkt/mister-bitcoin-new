@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/css/main.1bcac1ce.chunk.css",
+    "main.js": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/js/main.131251e6.chunk.js",
+    "main.js.map": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/js/main.131251e6.chunk.js.map",
+    "runtime-main.js": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/js/runtime-main.0e5a0fa2.js",
+    "runtime-main.js.map": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/js/runtime-main.0e5a0fa2.js.map",
+    "static/js/2.f48c70cc.chunk.js": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/js/2.f48c70cc.chunk.js",
+    "static/js/2.f48c70cc.chunk.js.map": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/js/2.f48c70cc.chunk.js.map",
+    "index.html": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/index.html",
+    "precache-manifest.42063d5219677569a187a7e89d95a9f7.js": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/precache-manifest.42063d5219677569a187a7e89d95a9f7.js",
+    "service-worker.js": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/service-worker.js",
+    "static/css/main.1bcac1ce.chunk.css.map": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/css/main.1bcac1ce.chunk.css.map",
+    "static/js/2.f48c70cc.chunk.js.LICENSE.txt": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/js/2.f48c70cc.chunk.js.LICENSE.txt",
+    "static/media/loading.svg": "/%E2%80%8Bhttp://shakedkt.github.io/mister-bitcoin-new/static/media/loading.59489d4f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e5a0fa2.js",
+    "static/js/2.f48c70cc.chunk.js",
+    "static/css/main.1bcac1ce.chunk.css",
+    "static/js/main.131251e6.chunk.js"
+  ]
+}
