@@ -11,7 +11,7 @@ class Hamburger extends Component {
     render() {
         return (
             <Menu>
-                <NavLink className="menu-item" activeClassName="active" to="/mister-bitcoin-new/Home">HOME</NavLink>
+                <NavLink className="menu-item" activeClassName="active" to="/mister-bitcoin-new/Home">SOME</NavLink>
                 <NavLink className="menu-item" activeClassName="active"  to="/mister-bitcoin-new/Contact">CONTACTS</NavLink>
                 <NavLink className="menu-item" activeClassName="active"  to="/mister-bitcoin-new/Statistic">STATISTIC</NavLink>
             </Menu>
