@@ -22,12 +22,12 @@ function App() {
         <NavBar />
         <main>
           <Switch>
-            <Route path="/" exact component={login} />
-            <Route path="/home" exact component={HomePage} />
-            <Route path="/Contact/edit/:id?" component={EditContactPage} />
-            <Route path="/Contact" exact component={Contacts} />
-            <Route path="/contact/:id" exact component={ContactDetails} />
-            <Route path="/Statistic" exact component={StatisticPage} />
+            <Route path="/mister-bitcoin-new/" exact component={login} />
+            <Route path="/mister-bitcoin-new/home" exact component={HomePage} />
+            <Route path="/mister-bitcoin-new/Contact/edit/:id?" exact component={EditContactPage} />
+            <Route path="/mister-bitcoin-new/Contact" exact  component={Contacts} />
+            <Route path="/mister-bitcoin-new/contact/:id" exact component={ContactDetails} />
+            <Route path="/mister-bitcoin-new/Statistic" exact component={StatisticPage} />
           </Switch>
         </main>
       </Router>

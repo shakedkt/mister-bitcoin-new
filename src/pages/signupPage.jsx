@@ -21,7 +21,7 @@ export class signupPage extends Component {
     loadUser() {
         const user = StorageService.load('user')
         if (user) {
-            this.props.history.push('/');
+            this.props.history.push('/mister-bitcoin-new/');
         }
     }
 
@@ -30,7 +30,7 @@ export class signupPage extends Component {
 
         await UserService.signUp(this.state.name);
         this.props.loadUserByName(this.state.name)
-        this.props.history.push('/home');
+        this.props.history.push('/mister-bitcoin-new/home');
     }
 
 
