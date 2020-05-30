@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/mister-bitcoin-new/static/css/main.1bcac1ce.chunk.css",
-    "main.js": "/mister-bitcoin-new/static/js/main.131251e6.chunk.js",
-    "main.js.map": "/mister-bitcoin-new/static/js/main.131251e6.chunk.js.map",
+    "main.css": "/mister-bitcoin-new/static/css/main.5adcfa3d.chunk.css",
+    "main.js": "/mister-bitcoin-new/static/js/main.1c9e9fd7.chunk.js",
+    "main.js.map": "/mister-bitcoin-new/static/js/main.1c9e9fd7.chunk.js.map",
     "runtime-main.js": "/mister-bitcoin-new/static/js/runtime-main.44e36b91.js",
     "runtime-main.js.map": "/mister-bitcoin-new/static/js/runtime-main.44e36b91.js.map",
-    "static/js/2.f48c70cc.chunk.js": "/mister-bitcoin-new/static/js/2.f48c70cc.chunk.js",
-    "static/js/2.f48c70cc.chunk.js.map": "/mister-bitcoin-new/static/js/2.f48c70cc.chunk.js.map",
+    "static/js/2.172f5076.chunk.js": "/mister-bitcoin-new/static/js/2.172f5076.chunk.js",
+    "static/js/2.172f5076.chunk.js.map": "/mister-bitcoin-new/static/js/2.172f5076.chunk.js.map",
     "index.html": "/mister-bitcoin-new/index.html",
-    "precache-manifest.03f060fa6c6289d61ce8aa29c3728bbd.js": "/mister-bitcoin-new/precache-manifest.03f060fa6c6289d61ce8aa29c3728bbd.js",
+    "precache-manifest.f46eb25c303da9ef6b8e57a950bd1d73.js": "/mister-bitcoin-new/precache-manifest.f46eb25c303da9ef6b8e57a950bd1d73.js",
     "service-worker.js": "/mister-bitcoin-new/service-worker.js",
-    "static/css/main.1bcac1ce.chunk.css.map": "/mister-bitcoin-new/static/css/main.1bcac1ce.chunk.css.map",
-    "static/js/2.f48c70cc.chunk.js.LICENSE.txt": "/mister-bitcoin-new/static/js/2.f48c70cc.chunk.js.LICENSE.txt",
+    "static/css/main.5adcfa3d.chunk.css.map": "/mister-bitcoin-new/static/css/main.5adcfa3d.chunk.css.map",
+    "static/js/2.172f5076.chunk.js.LICENSE.txt": "/mister-bitcoin-new/static/js/2.172f5076.chunk.js.LICENSE.txt",
+    "static/media/Bitcoin.png": "/mister-bitcoin-new/static/media/Bitcoin.22a2dc71.png",
     "static/media/loading.svg": "/mister-bitcoin-new/static/media/loading.59489d4f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.44e36b91.js",
-    "static/js/2.f48c70cc.chunk.js",
-    "static/css/main.1bcac1ce.chunk.css",
-    "static/js/main.131251e6.chunk.js"
+    "static/js/2.172f5076.chunk.js",
+    "static/css/main.5adcfa3d.chunk.css",
+    "static/js/main.1c9e9fd7.chunk.js"
   ]
 }
