@@ -4,7 +4,8 @@ import moment from 'moment';
 export const MoveList = (props) => {
     
     return (
-        <div className="moves-list">
+
+        <div className="moves-list" key={props.moveList}>
         <div className="title">{props.title}</div>
         <hr/>
             {props.moveList.map(move => {

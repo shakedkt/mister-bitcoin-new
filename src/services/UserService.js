@@ -35,11 +35,12 @@ function addMove(contact, amount) {
     at: Date.now(),
     amount,
   }
+  
   loggedInUser.moves.unshift(newMove)
   _updateCoins(amount)
   StorageService.save(KEY, loggedInUser);
 
-  return loggedInUser
+  return JSON.parse(JSON.stringify(loggedInUser));
 }
 
 function _updateCoins(amount) {

@@ -9,7 +9,7 @@ import { MoveList } from '../cmps/MoveList';
 
 class ContactDetailsPage extends Component {
     state = {
-        amount: 0
+        amount: 0,
     }
 
     async componentDidMount() {
@@ -31,23 +31,24 @@ class ContactDetailsPage extends Component {
     };
 
     componentDidUpdate(prevProps, prevState) {
+    
         if (prevProps.match.params.id !== this.props.match.params.id) {
+            console.log('got here');
+            
             this.loadContact();
         }
     }
 
     deleteClickHandler = async () => {
         await this.props.deleteContact(this.props.contact._id);
-        this.props.history.push('/mister-bitcoin-new/Contact');
+        this.props.history.push('/mister-bitcoin-new/');
     };
 
     transferCoins = (amount) => {
         const { contact } = this.props
-        console.log('amount', amount);
-
         this.props.addMove(contact, amount)
         console.log(this.props.user);
-        
+
     }
 
     get filteredMoves() {
@@ -66,10 +67,10 @@ class ContactDetailsPage extends Component {
         if (!user) {
             return <div> <img src={loadingSvg} /></div>;
         }
+        console.log('i got rendered');
 
-        const avatarImg = `https://robohash.org/${contact.name}.png`;
-        return (
-
+        const avatarImg = `https://robohash.org/${contact.name}.png`;        
+        return (            
             <div className="conact-deatils">
                 <div>
                     <button className="back-btn" onClick={this.onGoBackClickHandler}>Go Back</button>
@@ -82,7 +83,7 @@ class ContactDetailsPage extends Component {
 
                 <TransferFunds className="transfer-funds" contact={contact} maxCoins={user.coins} onTransferCoins={this.transferCoins} />
                 {this.filteredMoves.length !== 0 && <MoveList className="move-list-cmp" title={title} moveList={this.filteredMoves} isFullList={false} />}
-                <Link className="edit-btn" to={`/mister-bitcoin-new/Contact/edit/${contact._id}`}>Edit</Link>
+                <Link to={`/mister-bitcoin-new/Contact/edit/${contact._id}`}>Edit</Link>
             </div>
         )
     }

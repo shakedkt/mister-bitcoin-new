@@ -7,10 +7,10 @@ export function loadUserByName() {
     }
   }
 
-  export function addMove(contact, amount) {
+  export function addMove(contact, amount) {    
     return async dispatch => {  
       const user = await UserService.addMove(contact, amount);
-      dispatch({ type: 'SET_USER', user })
+      dispatch({ type: 'UPDATE_USER', user })
     }
   }
 
