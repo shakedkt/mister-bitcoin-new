@@ -9,13 +9,11 @@ class Hamburger extends Component {
     }
 
     render() {
-        // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
-
         return (
             <Menu>
-                <NavLink className="menu-item" activeClassName="active" exact to="/mister-bitcoin-new/Home">HOME</NavLink>
-                <NavLink className="menu-item" activeClassName="active" exact to="/mister-bitcoin-new/Contact">CONTACTS</NavLink>
-                <NavLink className="menu-item" activeClassName="active" exact to="/mister-bitcoin-new/Statistic">STATISTIC</NavLink>
+                <NavLink className="menu-item" activeClassName="active" to="/mister-bitcoin-new/Home">HOME</NavLink>
+                <NavLink className="menu-item" activeClassName="active"  to="/mister-bitcoin-new/Contact">CONTACTS</NavLink>
+                <NavLink className="menu-item" activeClassName="active"  to="/mister-bitcoin-new/Statistic">STATISTIC</NavLink>
             </Menu>
         );
     }
