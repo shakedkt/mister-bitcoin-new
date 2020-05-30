@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0587f498cac7b99aa241bb05fee6e23",
+    "revision": "69bee2549523a03403918f12659e78a1",
     "url": "/mister-bitcoin-new/index.html"
   },
   {
-    "revision": "b5027bd101318b103068",
-    "url": "/mister-bitcoin-new/static/css/main.ef15bb06.chunk.css"
+    "revision": "94ef680a629da012a265",
+    "url": "/mister-bitcoin-new/static/css/main.73fc202c.chunk.css"
   },
   {
     "revision": "67929b63a1fec22b46be",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mister-bitcoin-new/static/js/2.172f5076.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5027bd101318b103068",
+    "revision": "94ef680a629da012a265",
     "url": "/mister-bitcoin-new/static/js/main.53c80563.chunk.js"
   },
   {
