@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mister-bitcoin-new/static/css/main.5adcfa3d.chunk.css",
-    "main.js": "/mister-bitcoin-new/static/js/main.c894a281.chunk.js",
-    "main.js.map": "/mister-bitcoin-new/static/js/main.c894a281.chunk.js.map",
+    "main.css": "/mister-bitcoin-new/static/css/main.746c1682.chunk.css",
+    "main.js": "/mister-bitcoin-new/static/js/main.e897cc5e.chunk.js",
+    "main.js.map": "/mister-bitcoin-new/static/js/main.e897cc5e.chunk.js.map",
     "runtime-main.js": "/mister-bitcoin-new/static/js/runtime-main.44e36b91.js",
     "runtime-main.js.map": "/mister-bitcoin-new/static/js/runtime-main.44e36b91.js.map",
     "static/js/2.172f5076.chunk.js": "/mister-bitcoin-new/static/js/2.172f5076.chunk.js",
     "static/js/2.172f5076.chunk.js.map": "/mister-bitcoin-new/static/js/2.172f5076.chunk.js.map",
     "index.html": "/mister-bitcoin-new/index.html",
-    "precache-manifest.ccf2c4833891f819125c498bce69f629.js": "/mister-bitcoin-new/precache-manifest.ccf2c4833891f819125c498bce69f629.js",
+    "precache-manifest.0ba3ce2d848dd456e361992c79b4741c.js": "/mister-bitcoin-new/precache-manifest.0ba3ce2d848dd456e361992c79b4741c.js",
     "service-worker.js": "/mister-bitcoin-new/service-worker.js",
-    "static/css/main.5adcfa3d.chunk.css.map": "/mister-bitcoin-new/static/css/main.5adcfa3d.chunk.css.map",
+    "static/css/main.746c1682.chunk.css.map": "/mister-bitcoin-new/static/css/main.746c1682.chunk.css.map",
     "static/js/2.172f5076.chunk.js.LICENSE.txt": "/mister-bitcoin-new/static/js/2.172f5076.chunk.js.LICENSE.txt",
     "static/media/Bitcoin.png": "/mister-bitcoin-new/static/media/Bitcoin.22a2dc71.png",
     "static/media/loading.svg": "/mister-bitcoin-new/static/media/loading.59489d4f.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.44e36b91.js",
     "static/js/2.172f5076.chunk.js",
-    "static/css/main.5adcfa3d.chunk.css",
-    "static/js/main.c894a281.chunk.js"
+    "static/css/main.746c1682.chunk.css",
+    "static/js/main.e897cc5e.chunk.js"
   ]
 }
