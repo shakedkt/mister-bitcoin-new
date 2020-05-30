@@ -19,7 +19,7 @@ export const TransferFunds = (props) => {
         <div>
             <form onSubmit={handleSubmit}>
                 <input ref={amountInput} type="number" min="0" max={props.maxCoins} placeholder="Amount?" />
-                <button>Transfer</button>
+                <button className="transfer-btn">Transfer</button>
             </form>
         </div>
     );

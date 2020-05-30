@@ -54,7 +54,7 @@ export class signupPage extends Component {
                     <div>
                         <label>
                             <div className="fill">
-                                Name
+                                NAME
                             </div>
                             <input
                                 onChange={this.handleChange}

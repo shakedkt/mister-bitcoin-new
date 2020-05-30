@@ -82,7 +82,7 @@ class ContactDetailsPage extends Component {
 
                 <TransferFunds className="transfer-funds" contact={contact} maxCoins={user.coins} onTransferCoins={this.transferCoins} />
                 {this.filteredMoves.length !== 0 && <MoveList className="move-list-cmp" title={title} moveList={this.filteredMoves} isFullList={false} />}
-                <Link to={`/mister-bitcoin-new/Contact/edit/${contact._id}`}>Edit</Link>
+                <Link className="edit-btn" to={`/mister-bitcoin-new/Contact/edit/${contact._id}`}>Edit</Link>
             </div>
         )
     }
