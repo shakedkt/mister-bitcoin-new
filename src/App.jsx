@@ -23,7 +23,7 @@ function App() {
         <main>
           <Switch>
             <Route path="/mister-bitcoin-new/" exact component={login} />
-            <Route path="/mister-bitcoin-new/home" exact component={HomePage} />
+            <Route path="/mister-bitcoin-new/Home" exact component={HomePage} />
             <Route path="/mister-bitcoin-new/Contact/edit/:id?" exact component={EditContactPage} />
             <Route path="/mister-bitcoin-new/Contact" exact  component={Contacts} />
             <Route path="/mister-bitcoin-new/contact/:id" exact component={ContactDetails} />

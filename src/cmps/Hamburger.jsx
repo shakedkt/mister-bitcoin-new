@@ -13,9 +13,9 @@ class Hamburger extends Component {
 
         return (
             <Menu>
-                <NavLink className="menu-item" activeClassName="active" exact to="/">HOME</NavLink>
-                <NavLink className="menu-item" activeClassName="active" exact to="/Contact">CONTACTS</NavLink>
-                <NavLink className="menu-item" activeClassName="active" exact to="/Statistic">STATISTIC</NavLink>
+                <NavLink className="menu-item" activeClassName="active" exact to="/mister-bitcoin-new/Home">HOME</NavLink>
+                <NavLink className="menu-item" activeClassName="active" exact to="/mister-bitcoin-new/Contact">CONTACTS</NavLink>
+                <NavLink className="menu-item" activeClassName="active" exact to="/mister-bitcoin-new/Statistic">STATISTIC</NavLink>
             </Menu>
         );
     }

@@ -30,7 +30,7 @@ export class signupPage extends Component {
 
         await UserService.signUp(this.state.name);
         this.props.loadUserByName(this.state.name)
-        this.props.history.push('/mister-bitcoin-new/home');
+        this.props.history.push('/mister-bitcoin-new/Home');
     }
 
 
