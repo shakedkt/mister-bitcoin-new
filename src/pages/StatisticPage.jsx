@@ -12,8 +12,8 @@ class statisticPage extends Component {
             data: [],
             columnNames: ['Date', 'Low', 'Open', 'Close', 'High'],
             options: {
-                width: 350,
-                height: 600,
+                width: '80vw',
+                height: '90vh',
                 legend: 'none',
                 colors: ['#363636'],
                 backgroundColor: '#cecece',
