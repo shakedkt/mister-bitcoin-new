@@ -22,12 +22,12 @@ function App() {
         <NavBar />
         <main>
           <Switch>
-            <Route path="/" component={login} />
-            <Route path="/home" component={HomePage} />
+            <Route path="/" exact component={login} />
+            <Route path="/home" exact component={HomePage} />
             <Route path="/Contact/edit/:id?" component={EditContactPage} />
-            <Route path="/Contact" component={Contacts} />
-            <Route path="/contact/:id" component={ContactDetails} />
-            <Route path="/Statistic" component={StatisticPage} />
+            <Route path="/Contact" exact component={Contacts} />
+            <Route path="/contact/:id" exact component={ContactDetails} />
+            <Route path="/Statistic" exact component={StatisticPage} />
           </Switch>
         </main>
       </Router>
