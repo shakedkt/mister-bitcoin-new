@@ -32,7 +32,7 @@ class ContactEditPage extends Component {
 
         const contact = await this.props.saveContact({ ...this.state });
 
-        this.props.history.push(`/mister-bitcoin-new/contact/${contact._id}`);
+        this.props.history.push(`/mister-bitcoin-new/Contact/${contact._id}`);
     };
 
     render() {

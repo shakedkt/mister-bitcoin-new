@@ -26,7 +26,7 @@ function App() {
             <Route path="/mister-bitcoin-new/Home" exact component={HomePage} />
             <Route path="/mister-bitcoin-new/Contact/edit/:id?" exact component={EditContactPage} />
             <Route path="/mister-bitcoin-new/Contact" exact  component={Contacts} />
-            <Route path="/mister-bitcoin-new/contact/:id" exact component={ContactDetails} />
+            <Route path="/mister-bitcoin-new/Contact/:id" exact component={ContactDetails} />
             <Route path="/mister-bitcoin-new/Statistic" exact component={StatisticPage} />
           </Switch>
         </main>

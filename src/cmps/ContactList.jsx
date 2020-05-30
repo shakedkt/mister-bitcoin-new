@@ -6,7 +6,7 @@ export default (props) => {
     return (
       <div className="contacts">
         {props.contacts.map((contact) => (
-          <Link className="user-link" to={'/contact/' + contact._id} key={contact._id}>
+          <Link className="user-link" to={ '/mister-bitcoin-new/Contact/' + contact._id} key={contact._id}>
             <ContactPreview contact={contact} />
           </Link>
         ))}
