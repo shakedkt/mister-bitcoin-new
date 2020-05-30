@@ -9,11 +9,6 @@ export default (props) => {
             <NavLink className="logo" activeClassName="active" exact to="/">MISTER.BITCOIN</NavLink>
             </div>
             <Hamburger/>
-            {/* <nav className="NavBar">
-                <NavLink activeClassName="active" exact to="/">HOME</NavLink>
-                <NavLink activeClassName="active" exact to="/Contact">CONTACTS</NavLink>
-                <NavLink activeClassName="active" exact to="/Statistic">STATISTIC</NavLink>
-            </nav> */}
         </header>
     );
 };
