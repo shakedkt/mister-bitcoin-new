@@ -1,0 +1,11 @@
+.App {
+
+    @include for-narrow-layout {
+        .logo{
+            font-size: 15px;
+        }
+    }
+
+   
+
+}

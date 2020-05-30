@@ -1,0 +1,19 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-link{
+    text-decoration: none;
+}
+
+.add-btn {
+    object-fit: contain;
+    cursor: pointer;
+    width: 50px;
+  
+    right: 60px;
+    position: absolute;
+  }

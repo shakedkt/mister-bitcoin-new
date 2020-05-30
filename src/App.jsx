@@ -7,8 +7,10 @@ import './App.css';
 import HomePage from './pages/HomePage'
 import Contacts from './pages/ContactPage'
 import ContactDetails from './pages/ContactDetailsPage'
-import ContactEditPage from './pages/ContactEditPage'
+import EditContactPage from './pages/ContactEditPage'
 import StatisticPage from './pages/StatisticPage'
+import login from './pages/signupPage'
+
 
 import NavBar from './cmps/NavBar.jsx';
 
@@ -20,13 +22,12 @@ function App() {
         <NavBar />
         <main>
           <Switch>
-            <Route path="/" exact component={HomePage} />
-            {/* <Route path="/home" exact component={HomePage} /> */}
-            <Route path='/Contact/Edit' exact component={ContactEditPage} />
-            <Route path='/Contact/Edit/:_id' exact component={ContactEditPage} />
-            <Route path="/Contact" component={Contacts} />
-            <Route path="/contact/:id" component={ContactDetails} />
-            <Route path="/Statistic" component={StatisticPage} />
+            <Route path="/" exact component={login} />
+            <Route path="/home" exact component={HomePage} />
+            <Route path="/Contact/edit/:id?" component={EditContactPage} />
+            <Route path="/Contact" exact component={Contacts} />
+            <Route path="/contact/:id" exact component={ContactDetails} />
+            <Route path="/Statistic" exact component={StatisticPage} />
           </Switch>
         </main>
       </Router>

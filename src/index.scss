@@ -1,4 +1,3 @@
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -12,11 +11,68 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(50, 46, 63);
+  color: rgb(206, 206, 206);
+
+  link {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+  }
 }
+
+button {
+  padding: 10px 15px 10px 15px;
+  background-color: #b8b8ba;
+  border: none;
+  color: #f9f9f9;
+  margin-left: 20px;
+  margin-top: 25px;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px 0 10px 0;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #504e4e;
+  border: none;
+  outline: none;
+  color: #e8e7e7;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
 
 
 /* CMPS */
 @import './styles/cmps/NavBar.scss';
+@import './styles/cmps/ContactPreview.scss';
+@import './styles/cmps/ContactList.scss';
+@import './styles/cmps/ContactFilter.scss';
+@import './styles/cmps/MoveList.scss';
+@import './styles/cmps/Hamburger.scss';
 
 /* PAGES */
+@import './styles//pages/statisticPage.scss';
+@import './styles/pages/ContactEditPage.scss';
+@import './styles/pages/signupPage.scss';
+@import './styles/pages/ContactDetailsPage.scss';
 
+/* SETUP */
+@import './styles/setup/mixins';
+@import './styles/setup/variabels';
+@import './styles/setup/layout';
