@@ -1,11 +1,16 @@
 .App {
 
     @include for-narrow-layout {
-        .logo{
+        .logo {
             font-size: 15px;
         }
     }
 
-   
+    @include for-medium-layout {
+        .bm-burger-button {
+            position: inherit;
+        }
+
+    }
 
 }

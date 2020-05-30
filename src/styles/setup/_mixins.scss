@@ -10,6 +10,12 @@
     }
   }
   
+  @mixin for-medium-layout {
+    @media (min-width: $break-normal) {
+      @content;
+    }
+  }
+  
 
 @mixin aspect-ratio($width, $height) {
     overflow: hidden;
