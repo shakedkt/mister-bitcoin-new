@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+
+import { ContactService } from '../services/ContactService';
 import { loadContacts } from '../actions/ContactActions';
 
 import ContactList from '../cmps/ContactList';
@@ -36,7 +38,7 @@ class ContactPage extends Component {
     render() {
         return (
             <div>
-                <Link to="/mister-bitcoin-new/contact/edit">
+                <Link to="/mister-bitcoin-new/Contact/edit">
 
                     <img className='add-btn' src={addPost} />
                 </Link>

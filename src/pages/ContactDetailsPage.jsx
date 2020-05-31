@@ -41,7 +41,7 @@ class ContactDetailsPage extends Component {
 
     deleteClickHandler = async () => {
         await this.props.deleteContact(this.props.contact._id);
-        this.props.history.push('/mister-bitcoin-new/');
+        this.props.history.push('/mister-bitcoin-new/Contact');
     };
 
     transferCoins = (amount) => {
@@ -67,7 +67,6 @@ class ContactDetailsPage extends Component {
         if (!user) {
             return <div> <img src={loadingSvg} /></div>;
         }
-        console.log('i got rendered');
 
         const avatarImg = `https://robohash.org/${contact.name}.png`;        
         return (            
@@ -83,7 +82,7 @@ class ContactDetailsPage extends Component {
 
                 <TransferFunds className="transfer-funds" contact={contact} maxCoins={user.coins} onTransferCoins={this.transferCoins} />
                 {this.filteredMoves.length !== 0 && <MoveList className="move-list-cmp" title={title} moveList={this.filteredMoves} isFullList={false} />}
-                <Link to={`/mister-bitcoin-new/Contact/edit/${contact._id}`}>Edit</Link>
+                <Link to={`/contact/edit/${contact._id}`}>Edit</Link>
             </div>
         )
     }

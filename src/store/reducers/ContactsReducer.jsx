@@ -7,13 +7,8 @@ export default function ContactReducer(state = initialState, action) {
   switch (action.type) {
     case 'SET_CONTACTS':
       return { ...state, contacts: action.contacts }
-    case 'SET_CURR_CONTACT':      
-    console.log('got hre currContact SET_CURR', action.currContact);
-     
-    return { 
-        ...state, currContact: action.contact 
-      
-      }
+    case 'SET_CURR_CONTACT':             
+    return {...state, currContact: action.contact}
     case 'UPDATE_CONTACT':
       return {
         ...state,

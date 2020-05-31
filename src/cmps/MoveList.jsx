@@ -2,6 +2,7 @@ import React from 'react'
 import moment from 'moment';
 
 export const MoveList = (props) => {
+    console.log('props.MoveList', props.moveList);
     
     return (
 
