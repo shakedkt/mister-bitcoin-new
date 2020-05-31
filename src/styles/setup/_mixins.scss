@@ -11,7 +11,7 @@
   }
   
   @mixin for-medium-layout {
-    @media (min-width: $break-normal) {
+    @media (max-width: $break-normal) {
       @content;
     }
   }
