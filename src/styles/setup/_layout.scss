@@ -2,15 +2,27 @@
 
     @include for-narrow-layout {
         .logo {
-            font-size: 15px;
+            font-size: 20px;
         }
     }
 
     @include for-medium-layout {
         .bm-burger-button {
             position: absolute;
+            width: 35px;
+            height: 30px;
         }
 
+        .logo {
+            font-size: 25px;
+            padding-top: 37px;
+        }
+
+        .add-btn{
+            right: 23px;
+            top: 25px;
+        }
     }
+
 
 }
